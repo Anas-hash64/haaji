@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#fde9e9;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 80px;
+    background:#fff;
+    border-radius:20px;
+    margin:20px;
+}
+
+.navbar nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+.download-btn{
+    background:#ff5a7a;
+    color:#fff;
+    border:none;
+    padding:10px 20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.hero{
+    background:#fff;
+    margin:20px;
+    padding:60px 80px;
+    border-radius:30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    overflow: hidden; /* Si uusan qoraalku dibadda ugu bixin */
+}
+
+.hero-text h1{
+    font-size:55px;
+    font-weight:600;
+    line-height:1.1;
+}
+
+.hero-text p{
+    margin:20px 0;
+    color:#777;
+    font-size: 18px;
+}
+
+.primary-btn{
+    background:#ff5a7a;
+    color:#fff;
+    border:none;
+    padding:14px 28px;
+    border-radius:25px;
+    font-size:16px;
+    cursor:pointer;
+    margin-top: 10px;
+}
+
+/* HALKAN WAA ISBEDDELKA MUHIIMKA AH */
+.hero-img-container {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Masaafada u dhexaysa sawirka iyo qoraalka */
+}
+
+.circle{
+    width:350px;
+    height:350px;
+    background:#ff5c7c;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink: 0;
+}
+
+.circle img{
+    width:280px;
+    border-radius:50%;
+}
+
+.img-stats{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.stat h3{
+    font-size:32px;
+    font-weight:800;
+    line-height: 1;
+    color: #333;
+}
+
+.stat p{
+    font-size:14px;
+    color:#999;
+    margin-top: 5px;
+}
+
+.apps{
+    background:#4b63f2;
+    margin:20px;
+    padding:50px;
+    border-radius:30px;
+    display:flex;
+    justify-content:space-around;
+}
+
+.card{
+    background:#fff;
+    width:280px;
+    padding:40px 30px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.card i{
+    font-size:32px;
+    color:#ff5a7a;
+    margin-bottom:20px;
+}
+
+.card h3{
+    margin-bottom:15px;
+    font-size: 20px;
+}
+
+.card p{
+    color:#777;
+    font-size:14px;
+    line-height: 1.6;
+}
